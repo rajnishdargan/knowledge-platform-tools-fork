@@ -7,7 +7,12 @@ import { taxonomyConfig } from '../assets/config';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  environment = environment;
-  taxonomyConfig = taxonomyConfig;
+  public environment = environment;
+  public taxonomyConfig = taxonomyConfig;
   constructor() { }
+
+  ngOnInit() {
+    console.log("environment ===>", environment);
+    console.log("taxonomyConfig ===>", taxonomyConfig);
+  }
 }

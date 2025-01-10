@@ -14,7 +14,8 @@ export class TokenInterceptorService {
     const env = this.frameWorkServie.getEnvironment()
     const request = req.clone({  
       setHeaders: {  
-        Authorization: env.authToken,  
+        Authorization: env.authToken,
+        tenantId: env.tenantId
         // channelId: env.channelId
         // userToken:env.userToken
       }  

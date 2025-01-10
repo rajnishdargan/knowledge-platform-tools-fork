@@ -135,6 +135,7 @@ export class TaxonomyViewComponent implements OnInit, OnDestroy {
   }
 
   get list(): any[] {
+    console.log("this.frameworkService.list ==>", this.frameworkService.list);
     return Array.from(this.frameworkService.list.values())
   }
   

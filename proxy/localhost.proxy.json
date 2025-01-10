@@ -1,6 +1,6 @@
 {
     "/api/*": {
-      "target": "https://compass-dev.tarento.com",
+      "target": "https://qa-middleware.tekdinext.com",
       "secure": false,
       "logLevel": "debug",
       "changeOrigin": true,

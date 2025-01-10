@@ -213,6 +213,7 @@ export class FrameworkService {
 
   setConfig(config: any) {
     this.rootConfig = config
+    console.log('this.rootConfig ===>', this.rootConfig)
 
   }
 
@@ -224,6 +225,7 @@ export class FrameworkService {
         categoryConfig = config.config.find((obj: any) => obj.category == code);
       }
     });
+    console.log('categoryConfig ===>', categoryConfig);
     return categoryConfig || defaultConfig.config.find((obj: any) => obj.category == code);
   }
 

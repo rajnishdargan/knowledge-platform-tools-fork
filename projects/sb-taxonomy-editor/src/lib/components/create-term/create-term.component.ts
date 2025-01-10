@@ -96,11 +96,11 @@ export class CreateTermComponent implements OnInit {
         return
       }
       if(this.createTermForm.valid) {
-        const term:NSFramework.ICreateTerm =   {
+        const term =   {
           code:this.frameWorkService.getUuid(),
           name:this.createTermForm.value.name,
           description:this.createTermForm.value.description,
-          status: appConstants.LIVE,
+          // status: appConstants.LIVE,
           approvalStatus:appConstants.DRAFT,
           parents:[
             {identifier:`${this.data.columnInfo.identifier}`}

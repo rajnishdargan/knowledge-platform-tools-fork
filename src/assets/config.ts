@@ -1,94 +1,53 @@
 export const taxonomyConfig = [
     {
-        "frameworkId" :"devmvp3",
+        "frameworkId" :"taxonomy-lib-framework",
         "config" : [
             {   
                 "index": 1,
-                "category": "position",
+                "category": "board",
                 "icon": "settings",
                 "color": "#1d2327"
             },
             {   
                 "index": 2,
-                "category": "role",
+                "category": "medium",
                 "icon": "extension",
                 "color": "#541675"
             },
             {   
                 "index": 3,
-                "category": "competency",
+                "category": "gradeLevel",
                 "icon": "bar_chart",
                 "color": "#9a6c80"
             },
             {   
-                "index": 4,
-                "category": "competencylevel",
-                "icon": "account_box",
-                "color": "#d8666a"
+                "index": 3,
+                "category": "subject",
+                "icon": "bar_chart",
+                "color": "#9a6c80"
             }
         ]
     },
     {
-        "frameworkId" :"tarento_fw",
+        "frameworkId" :"qa-scp-framework",
         "config" : [
             {   
                 "index": 1,
-                "category": "taxonomyCategory1",
+                "category": "learningCategory",
                 "icon": "settings",
                 "color": "#1d2327"
             },
             {   
                 "index": 2,
-                "category": "taxonomyCategory2",
+                "category": "learningSubCategory",
                 "icon": "extension",
                 "color": "#541675"
             },
             {   
                 "index": 3,
-                "category": "taxonomyCategory3",
+                "category": "learningUnit",
                 "icon": "bar_chart",
                 "color": "#9a6c80"
-            },
-            {   
-                "index": 4,
-                "category": "taxonomyCategory4",
-                "icon": "account_box",
-                "color": "#d8666a"
-            }
-        ]
-    },
-    {
-        "frameworkId" :"fracing_fw",
-        "config" : [
-            {   
-                "index": 1,
-                "category": "taxonomyCategory1",
-                "icon": "settings",
-                "color": "#1d2327"
-            },
-            {   
-                "index": 2,
-                "category": "taxonomyCategory2",
-                "icon": "extension",
-                "color": "#541675"
-            },
-            {   
-                "index": 3,
-                "category": "taxonomyCategory3",
-                "icon": "bar_chart",
-                "color": "#9a6c80"
-            },
-            {   
-                "index": 4,
-                "category": "taxonomyCategory4",
-                "icon": "account_box",
-                "color": "#d8666a"
-            },
-            {   
-                "index": 5,
-                "category": "taxonomyCategory5",
-                "icon": "account_box",
-                "color": "#d8666a"
             }
         ]
     },
@@ -122,35 +81,6 @@ export const taxonomyConfig = [
         ]
     },
     {
-        "frameworkId" :"gov_fw",
-        "config" : [
-            {   
-                "index": 1,
-                "category": "taxonomyCategory1",
-                "icon": "settings",
-                "color": "#1d2327"
-            },
-            {   
-                "index": 2,
-                "category": "taxonomyCategory2",
-                "icon": "extension",
-                "color": "#541675"
-            },
-            {   
-                "index": 3,
-                "category": "taxonomyCategory3",
-                "icon": "bar_chart",
-                "color": "#9a6c80"
-            },
-            {   
-                "index": 4,
-                "category": "taxonomyCategory4",
-                "icon": "account_box",
-                "color": "#d8666a"
-            }
-        ]
-    },
-    {
         "frameworkId" :"default",
         "config" : [
             {   
@@ -170,18 +100,6 @@ export const taxonomyConfig = [
                 "category": "taxonomyCategory3",
                 "icon": "bar_chart",
                 "color": "#9a6c80"
-            },
-            {   
-                "index": 4,
-                "category": "taxonomyCategory4",
-                "icon": "account_box",
-                "color": "#d8666a"
-            },
-            {   
-                "index": 5,
-                "category": "taxonomyCategory5",
-                "icon": "account_box",
-                "color": "#d8666a"
             }
 
         ]

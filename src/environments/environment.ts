@@ -4,13 +4,14 @@
 
 export const environment = {
   production: false,
-  url: 'https://compass-dev.tarento.com/',
+  url: 'https://qa-middleware.tekdinext.com/',
   token: '',
-  frameworkName: 'fracing_fw',
-  channelId: 'tarento',
-  authToken: '',
+  frameworkName: '',
+  channelId: '',
+  authToken: 'Bearer XYZ',
+  tenantId: 'ef99949b-7f3a-4a5f-806a-e67e683e38f3',
   userToken:'',
-  isApprovalRequired: true,
+  isApprovalRequired: false,
   additionalProperties: []
 };
 
